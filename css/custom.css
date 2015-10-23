@@ -17,3 +17,11 @@ html, body, div {
   font-size: 1.5em;
   border-bottom: 1px solid #5C4944;
 }
+
+footer {
+  height: 20px;
+  width:100%;
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+}
