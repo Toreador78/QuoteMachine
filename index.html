@@ -20,7 +20,7 @@
     <!--Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
   </head>
-  <body>
+  <body ng-app="QuoteApp" ng-controller="QuoteCtrl" ng-init="initQuote()">
     <div class="container text-center">
       <div class="jumbotron">
         <div class="row">
@@ -37,11 +37,10 @@
         <div class="col-md-6 col-md-offset-3">
           <div class="quoteArea">
             <div class="well">
-              <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil placeat quidem dolores cupiditate expedita doloribus excepturi aliquid mollitia consequuntur ea.</p>
-              <p>~~~</p>
-              <p class="author">Author</p>
+              <p class="quote">{{quote}}</p>
+              <p class="author">{{author}}</p>
             </div>
-            <button class="btn btn-default" type="submit">I'm a button for a new Quote</button>
+            <button class="btn btn-default" type="submit" ng-click="newQuote()">New Quote</button>
             <button class="btn btn-default" type="submit">I'm a button for Twitter</button>
           </div>
         </div>
@@ -50,5 +49,9 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--Angular.js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
