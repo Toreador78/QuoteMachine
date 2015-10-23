@@ -4,10 +4,6 @@ html, body, div {
   border: 0 none;
 }
 
-.test {
-  border: solid blue 1px;
-}
-
 .jumbotron img{
   /*float: left;*/
   width:auto;
