@@ -20,7 +20,17 @@ QuoteApp.controller('QuoteCtrl', function($scope, $http){
     {quote: "All you need in this life is ignorance and confidence, and then success is sure.", author:"Mark Twain"},
     {quote: "It is better to keep your mouth closed and let people think you are a fool than to open it and remove all doubt.", author:"Mark Twain"},
     {quote: "You can't depend on your eyes when your imagination is out of focus.", author:"Mark Twain"},
-    {quote: "Part of the secret of a success in life is to eat what you like and let the food fight it out inside.", author:""}
+    {quote: "Part of the secret of a success in life is to eat what you like and let the food fight it out inside.", author:"Mark Twain"},
+    {quote: "People ask the difference between a leader and a boss. The leader leads, and the boss drives.", author: "Theodore Roosevelt"},
+    {quote: "In any moment of decision, the best thing you can do is the right thing, the next best thing is the wrong thing, and the worst thing you can do is nothing.", author: "Theodore Roosevelt"},
+    {quote: "If you could kick the person in the pants responsible for most of your trouble, you wouldn't sit for a month.", author: "Theodore Roosevelt"},
+    {quote: "Far better is it to dare mighty things, to win glorious triumphs, even though checkered by failure... than to rank with those poor spirits who neither enjoy nor suffer much, because they live in a gray twilight that knows not victory nor defeat.", author: "Theodore Roosevelt"},
+    {quote: "Far and away the best prize that life has to offer is the chance to work hard at work worth doing.", author: "Theodore Roosevelt"},
+    {quote:"Never look backwards or you'll fall down the stairs.", author:"Rudyard Kipling"},
+    {quote:"A woman is only a woman, but a good cigar is a smoke.", author:"Rudyard Kipling"},
+    {quote:"Small miseries, like small debts, hit us in so many places, and meet us at so many turns and corners, that what they want in weight, they make up in number, and render it less hazardous to stand the fire of one cannon ball, than a volley composed of such a shower of bullets.", author:"Rudyard Kipling"},
+    {quote:"If you can keep your wits about you while all others are losing theirs, and blaming you. The world will be yours and everything in it, what's more, you'll be a man, my son.", author:"Rudyard Kipling"},
+    {quote:"I always prefer to believe the best of everybody, it saves so much trouble.", author:"Rudyard Kipling"}
   ];
   length = quotes.length - 1;
   //$scope.quote = 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.';  $scope.author = 'internet';
